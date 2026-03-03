@@ -6,7 +6,7 @@
     <title>Product View</title>
 </head>
 <body>
-    
+    <button>Add Product</button>
 </body>
 </html>
 
@@ -23,3 +23,4 @@ Route::get('/', function(){
 Route::get('/', function(){
     return view('edit');
 });
+
