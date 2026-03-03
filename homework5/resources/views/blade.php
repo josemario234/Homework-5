@@ -16,3 +16,10 @@ Route::get('/', function(){
     return view('index');
 });
 
+Route::get('/', function(){
+    return view('create');
+});
+
+Route::get('/', function(){
+    return view('edit');
+});
